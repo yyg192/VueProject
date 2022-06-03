@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <!-- 路由占位符，这样的话通过路由匹配到的这些组件都会被渲染到router-view中进行展示 -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -14,7 +11,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #9daebe;
 }
 
 nav {
